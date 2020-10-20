@@ -10,7 +10,7 @@ int main()
 	int x;
 	int y;
 
-	cout << "This program multiplies two values." << endl;
+	cout << "\nThis program multiplies two values using recursion.\n" << endl;
 
 	cout << "Enter first value: ";
 	cin  >> x;
@@ -18,7 +18,7 @@ int main()
 	cin  >> y;
 
 	
-	cout << "Product: " << multiply(x, y) << endl;
+	cout << "Product: " << multiply(x, y) << "\n" << endl;
 	return 0;
 }
 
